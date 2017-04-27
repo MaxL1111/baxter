@@ -1,0 +1,641 @@
+@import url(reset.css);
+
+#wrapper{
+    width: 1024px;
+
+    margin: 0 auto;
+}
+
+#topLines {
+    height: 18px;
+    background-image: url(../images/topLine.png);
+    background-repeat: repeat-x;
+    background-color: #cccccc;
+}
+
+#header {
+    height: 157px;
+    position:relative;
+}
+
+#logo {
+    width: 229px;
+    height: 73px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 50px;
+    left:35px ;
+}
+
+#logo a {
+   display: block; 
+   height: 92px;
+   cursor: pointer;
+}
+
+#faq{
+    width: 82px;
+    height: 164px;
+    background-image: url(../images/faq.png);
+    background-repeat: no-repeat;
+    position:absolute;
+    top: -18px;
+    right:42px ;
+}
+
+#faq a {
+   display: block; 
+   height: 164px;
+   cursor: pointer;
+}
+
+#nav {
+    width: 520px;
+    height: 30px;
+    position: absolute;
+    top: 56px;
+    left: 377px;  
+}
+
+#nav li{
+    float:left;
+    margin-right: 27px;
+}
+
+#nav li a {
+    text-decoration: none; /*отменили нижнее подчеркивание и др эл-ты присущие оформлению ссылок*/
+    font: 16px Arial, sans-serif;
+    color:#3f3f3f;
+}
+
+#nav li a.active {
+    color: #2c789c;
+}
+
+#nav li a:hover {
+    color: #2c789c; /*hover когда ссылки при наведении меняют цвет*/
+}
+/*конец блока header*/
+
+/*начало блока people*/
+
+#people {
+    height: 404px;
+    background-image: url(../images/peopleBg.jpg);
+    background-repeat: no-repeat;
+    background-position:67px 45px;
+    position:relative;
+}
+
+#peopleImg{
+    width: 409px;
+    height: 392px;
+    position:absolute;
+    top: 8px;
+    right:47px ;
+    background-image: url(../images/people.jpg);
+    z-index: 5;
+}
+
+#slogan {
+     width: 350px;
+     height: 80px;
+     position:absolute;
+     top: 207px;
+     right:640px;
+     text-align: right;
+     padding-top:5px;
+}
+
+#slogan h1 {
+    font:bold 23px Arial, sans-serif; 
+    color:#1D1E1B;
+    text-transform:uppercase;
+}
+
+#slogan p {
+    font:16px Arial, sans-serif; 
+    color:#2C789C;
+}
+
+#forLine{
+    height:96px;
+    width: 1024px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url(../images/forLineBg.png);
+    background-repeat: repeat-y;    
+}
+/*конец блока people*/
+
+/*начало блока colors*/
+
+#colors {
+    background-image: url(../images/colorsBg.png);
+    background-repeat: repeat-y;   
+    padding:0 49px 0 42px;
+    
+}
+
+#blue {
+    width: 289px;
+    float: left;
+    background-color:#2C789C;
+    padding-left: 16px;
+    background-image: url(../images/e1.png);
+    background-repeat: no-repeat;
+    background-position: 250px 10px;
+}
+
+
+#yellow {
+    width: 292px;
+    float: left;
+    background-color:#F7B100;
+    padding-left: 30px;
+    background-image: url(../images/e2.png);
+    background-repeat: no-repeat;
+    background-position: 267px 10px;
+}
+#green {
+    width: 273px;
+    float: left; 
+    background-color:#97BA15;
+    padding-left: 31px;
+    background-image: url(../images/e3.png);
+    background-repeat: no-repeat;
+    background-position: 251px 10px;
+}
+
+#blue, #yellow, #green  {
+    color:#FFFFFF;
+    position: relative;
+}
+
+#colors h2{
+    font:19px Arial, sans-serif;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#colors p{
+    font:16px Arial, sans-serif;
+    padding-bottom: 10px;
+    line-height:96%;
+}
+
+#colors a{
+    text-decoration: none;
+    font:16px Arial, sans-serif;
+    color: #525252;
+    display: block;
+    width: 97px;
+    height: 22px;
+    background-image: url(../images/readMore.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 4px 0px 4px 9px;
+    margin-bottom: 4px;
+}
+
+.clear {
+    clear: both;
+}
+
+#romb1 {
+    width:25px;
+    height:48px;  
+    background-image: url(../images/e4.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 50px;
+    left:0px ;
+}
+
+#romb2{
+    width:25px;
+    height:48px;  
+    background-image: url(../images/e5.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 50px;
+    left:0px ;
+}
+
+#yellow a, #yellow p, #green a, #green p {
+    margin-left: 6px;
+} 
+/*конец блока colors*/
+
+/*начало блока blackAndWhite*/
+
+#blackAndWhite {
+    height:272px;
+    background-image: url(../images/colorsBg.png);
+    background-repeat: repeat-y;   
+    position: relative;
+}
+
+#bLeft{
+    width:39px;
+    height:100px; 
+    float: left; 
+    background-image: url(../images/bLeft.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    left:0px ;
+}
+
+#bRight{
+    width:42px;
+    height:101px; 
+    float: left; 
+    background-image: url(../images/bRight.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    right:0px;
+}
+
+#bBottom {
+    width:956px;
+    height: 1px;
+    background-image: url(../images/bBottom.png);
+    position: absolute;
+    background-repeat: repeat-x;
+    bottom: 0px;
+    left:35px;
+}
+
+#textBAW {
+    width: 610px;
+    float: left;
+    position: absolute;
+    top: 16px;
+    left:56px;
+}
+
+#textBAW, #bForm h2 {
+    font:24px Arial, sans-serif;
+    color:#000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#textBAW p.stong {
+    font:16px Arial, sans-serif;
+    color:#1d1e1b;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+#textBAW p.greyText {
+    height: 100px;
+    font:16px Arial, sans-serif;
+    color:#7b7d78;
+    margin-top: 16px;
+    margin-bottom: 13px;
+    overflow: hidden ;
+}
+
+#textBAW a {
+    text-decoration: none;
+    font:16px Arial, sans-serif;
+    text-align: center;
+    color: #90918F;
+    display: block;
+    width: 99px;
+    height: 29px;
+    background-image: url(../images/readMoreBlack.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: 2px;
+    padding-top: 2px;
+}
+
+#bForm {
+    width: 272px;
+    float: left;
+    position: absolute;
+    top: 16px;
+    right:56px;
+}
+
+#bForm input {
+    border:1px solid #DEDEDE;
+	height:19px;
+	width:250px;
+	background-repeat: repeat-x;
+	font:16px Arial, sans-serif;
+    color:#000000;
+	line-height:30px; /*пишется специально для IE7*/
+    margin-top: 11px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+#bForm input.buttonSend {
+    width: 99px;
+    height: 26px;
+    border: none;
+    cursor: pointer;
+    margin-top: 32px;
+    padding-left: 0px;    
+}
+.clear {
+    clear: both;
+}
+/*конец блока blackAndWhite*/
+
+
+/*начало блока dark*/
+#dark{
+   height: 403px; 
+   padding:13px 30px 14px 41px;
+   background-color:#1D1E1B;
+  
+}
+
+#planning{
+     width: 289px;
+     height: 403px;
+     float: left;   
+}
+
+#team{
+     width: 289px;
+     height: 403px;
+     float: left;   
+     margin-left: 39px; 
+}
+
+#blog{
+     width: 295px;
+     height: 403px;
+     float: left;
+     margin-left: 39px;
+}
+
+#dark h3{
+    font:19px Arial, sans-serif;
+    color:#ffffff;
+    text-transform:uppercase;
+    overflow: hidden;
+}
+
+#planning p, #team p{
+    font:12px Arial, sans-serif;
+    color:#94998f;
+    line-height:14px;
+    overflow: hidden;
+    
+}
+
+#planning a, #team a {
+    text-decoration: none;
+    font:16px Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    width: 99px;
+    height: 26px;
+    background-image: url(../images/readMoreblue.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: 30px;
+    padding-top: 3px;
+}
+
+#imgDark1 {
+    width: 289px;
+    height: 115px;
+    background-image: url(../images/dark1.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 9px;
+}
+
+#imgDark2 {
+    width: 289px;
+    height: 115px;
+    background-image: url(../images/dark2.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 9px;
+}
+
+#post1, #post2 {
+    height: 122px;
+}
+
+#post3 {
+    height: 126px;
+}
+
+#blogImg1, #blogImg2, #blogImg3  {
+    width: 111px;
+    height: 81px;
+    float: left;
+    margin-right: 11px;
+    margin-top: 5px;
+}
+
+#blogImg1 {
+    background-image: url(../images/dark3.jpg);
+     background-repeat: no-repeat;
+}
+
+#blogImg2 {
+    background-image: url(../images/dark3.jpg);
+     background-repeat: no-repeat;
+}
+
+#blogImg3 {
+    background-image: url(../images/dark5.jpg);
+    background-repeat: no-repeat;
+}
+
+
+#blog h4 {
+    font:14px Arial, sans-serif;
+    color: #ffffff;
+}
+
+#blog p {
+    font:12px Arial, sans-serif;
+    color: #94998f;
+    line-height:14px;
+}
+
+#blog a {
+    font:12px Arial, sans-serif;
+    color: #2c789c;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#blog h3 span a {
+    text-decoration: none;
+    text-transform: lowercase;
+    font:16px Arial, sans-serif;
+    color: #2c789c;
+    cursor: pointer;
+    padding-left: 13px;   
+} 
+/*конец блока dark*/
+
+/*начало блока gray*/
+#gray {
+    height: 166px; 
+    padding:15px 30px 35px 40px;
+    background-color:#2E302C;
+}
+
+#block1, #block2, #block3 {
+     float: left;
+}
+
+#gray h3 {
+    font:19px Arial, sans-serif;
+    color:#ffffff;
+    text-transform:uppercase;
+     overflow: hidden;
+}
+
+#block1 p {
+    font:12px Arial, sans-serif;
+    color: #94998f;
+    line-height:15px;
+}
+
+#gray a {
+    text-decoration: none;
+    display: block;
+    font:16px Arial, sans-serif;
+    color: #2c789c;
+    cursor: pointer;
+    padding-top: 10px;
+}   
+
+#block2, #block3 p.bb {
+    font:12px Arial, sans-serif;
+    color: #94998f;
+    line-height:29px;
+}
+
+#block1 {
+   width: 300px;
+   height: 165px;
+}
+
+#block2 {
+    height: 173px;
+     width: 285px;
+    margin-left: 33px;
+}
+
+#block3 {
+    height: 160px;
+    width: 271px;
+    margin-left: 38px;
+    padding-top: 23px;
+}
+
+/*конец блока gray*/
+
+/*начало блока footer*/
+
+#footer {
+    height: 154px;
+    background-color: #131412;
+    position: relative;
+}
+
+#copy {
+    position: absolute;
+    top: 81px;
+    left: 39px;
+}
+
+#copy, #copy a {
+    font: 13px Arial, sans-serif;
+    color: #9b9d99;
+    text-decoration: none;
+    
+}
+
+
+#nav2 {
+    width: 420px;
+    height: 18px; 
+    position: absolute;
+    top: 78px;
+    right: 0px;  
+}
+
+#nav2 li{
+    float:left;
+     margin-right: 22px;
+}
+
+#nav2 li a {
+    text-decoration: none; /*отменили нижнее подчеркивание и др эл-ты присущие оформлению ссылок*/
+    font: 13px Arial, sans-serif;
+    color:#94998f;
+}
+
+#nav2 li a.active {
+    color: #2c789c;
+}
+
+#nav2 li a:hover {
+    color: #2c789c; /*hover когда ссылки при наведении меняют цвет*/
+}
+
+#footerSocial {
+    width: 160px;
+    height: 22px; 
+    position: absolute;
+    top: 111px;
+    right: 25px;
+    
+}
+
+#footerSocial li{
+    float: left;
+    margin-right: 5px;
+}
+
+#s4 {
+    height: 21px;
+    width: 63px;
+    background-image: url(../images/s4.png);
+}
+
+#s3 {
+    height: 21px;
+    width: 21px;
+    background-image: url(../images/s3.png);
+}
+
+#s2 {
+    height: 21px;
+    width: 26px;
+    background-image: url(../images/s2.png);
+}
+
+#s1 {
+    height: 21px;
+    width: 21px;
+    background-image: url(../images/s1.png);
+}
+
+#footerSocial li a{
+    height: 22px; 
+    display: block;
+    cursor: pointer;
+    
+}
